@@ -27,4 +27,10 @@ then
 elif [ $command = "heartbeat" ]
 then
 	echo heartbeat > trigger
+elif [ $command = "timer" ]
+then
+	echo timer > trigger
+	echo $value > delay_on
+	echo 500 > delay_off
 fi
+
