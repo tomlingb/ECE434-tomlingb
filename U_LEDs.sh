@@ -2,13 +2,14 @@
 
 led=0
 value=0
-command="on"
-while getopts led:v:c: flag
+command="heartbeat"
+
+while getopts l:v:c: flag
 do
     case "${flag}" in
-        led) led_number=${OPTARG};;
+        l) led=${OPTARG};;
         v) value=${OPTARG};;
-	c) command=${OPTARG};;
+        c) command=${OPTARG};;
     esac
 done
 
@@ -19,11 +20,11 @@ if [ $command = "on" ]
 then
 	echo none > trigger 
 	echo 1 > brightness 
-elif [ $command = "invert" ]
-then 
-	echo $value > invert
+elif [ $command = "off" ]
+then
+    echo none > trigger
+    echo 0 > brightness
 elif [ $command = "heartbeat" ]
 then
 	echo heartbeat > trigger
 fi
-
