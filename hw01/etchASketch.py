@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import curses
-from curses import wrapper
+#import curses
+#from curses import wrapper
 
 # stdscr = curses.initscr()
 # curses.noecho()
@@ -13,4 +13,3 @@ from curses import wrapper
 # stdscr.keypad(False)
 # curses.echo()
 # curses.endwin
-
