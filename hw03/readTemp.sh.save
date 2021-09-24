@@ -1,0 +1,11 @@
+#!/bin/bash
+
+while [ True ] 
+do
+	temp1='i2cget -y 2 0x4a 0'
+	temp2='i2cget -y 2 0x48 0'
+	#temp1F=$(($(($temp1*1.8))+32))
+	#temp2F=$(($(($temp2*1.8))+32))
+	echo $temp1
+	echo $temp2
+done
