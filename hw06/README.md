@@ -12,4 +12,4 @@ The plots are named RT.png and NRT.png. To create a load I ran the make command 
 
 ### NRT.png
 
-![alt text](https://github.com/tomlingb/ECE434-tomlingb/blob/main/hw06/NRT.png?raw=true)
+![NRT](NRT.png)
