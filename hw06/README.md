@@ -10,6 +10,10 @@ PlaceHolder
 
 The plots are named RT.png and NONRT.png. To create a load I ran the make command in the modules directory
 
-### NRT.png
+### NONRT.png
 
 ![NONRT](NONRT.png)
+
+### RT.png
+
+![RT](RT.png)
