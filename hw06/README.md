@@ -42,6 +42,8 @@ Because only a very small portion of the execution is performed in hardirq so th
 
 The plots are named RT.png and NONRT.png. To create a load I ran the make command in the modules directory
 
+The RT kernel definitely stiffles the continued ripples that you can see in the NON-RT.
+
 ### NONRT.png
 
 ![NONRT](NONRT.png)
