@@ -51,3 +51,18 @@ The RT kernel definitely stiffles the continued ripples that you can see in the 
 ### RT.png
 
 ![RT](RT.png)
+
+# hw06 grading
+
+| Points      | Description |
+| ----------- | ----------- |
+|  2/2 | Project 
+|  5/5 | Questions
+|  4/4 | PREEMPT_RT
+|  2/2 | Plots to 500 us
+|  3/5 | Plots - Heavy/Light load | *Show RT and non-RT on same plot*
+|  2/2 | Extras
+| 18/20 | **Total**
+
+*My comments are in italics. --may*
+
